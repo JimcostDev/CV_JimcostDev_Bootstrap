@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <!--<meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
     <title>JimcostDev by Ronaldo Jiménez | Backend Developer</title>
     <link rel="shortcut icon" type="image/png" href="img/logo.png" />
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
@@ -22,15 +22,16 @@
 			.col-xxl 	Extra Extra Largo (Extra Extra Large) - Televisiones 	Mas de 1400px
 		-->
     <div class="container">
-        <div class="row mb-2 ">
-            <div class="col-12 col-sm-6">
+        <div class="row mb-2 mx-0">
+            <div class="col-12">
                 <button class="btn btn-primary ds" id="btn-descargar">Descargar <i class="fa fa-arrow-down"></i></button>
             </div>
         </div>
-        <div class="row bg-dark d-flex">
-            <div class="col-3 bg-warning p-5">
+    </div>
+    <div class="container" id="container">
+        <div class="row">
+            <div class="col-3 col-md-4 bg-warning p-4">
                 <!--------------------- CONTACTO ---------------------->
-            <div class="col-12"> 
                 <div class="contacto">
                     <div class="foto-perfil">
                         <img src="img/perfil.png" alt="foto perfil">
@@ -43,9 +44,7 @@
                     <p><i class="fas fa-envelope"></i> jimcostdev@gmail.com</p>
                     <p><i class="fas fa-link"></i> </i> <a href="http://www.jimcostdev.com" target="_blank">www.jimcostdev.com</a></p>
                 </div>
-            </div>
             <!--------------------- REDES SOCIALES ---------------------->
-            <div class="col-12">
                 <div class="redes-sociales">
                     <h2  class="titulo">REDES SOCIALES</h2>
                     <hr class="linea">
@@ -54,9 +53,7 @@
                     <p><i class="fab fa-twitter"></i> </i> <a href="https://twitter.com/JimcostDev" target="_blank">@JimcostDev</a></p>
                     <p><i class="fab fa-linkedin"></i> </i> <a href="https://www.linkedin.com/in/ronaldo-jimenez" target="_blank">@ronaldo-jimenez</a></p>
                 </div>
-            </div>
             <!--------------------- HABILIDADES ---------------------->
-            <div class="col-12">
                 <div class="skills">
                     <h2  class="titulo">HABILIDADES</h2>
                     <hr class="linea">
@@ -66,9 +63,7 @@
                     <p> <i class="fab fa-windows"></i> C# & .NET</p>
                     <p> <i class="fab fa-git-alt"></i> Git</p>
                 </div>
-            </div>
             <!--------------------- REFERENCIAS ---------------------->
-            <div class="col-12">
                 <div class="referencias">
                     <h2  class="titulo">REFERENCIAS</h2>
                     <hr class="linea">
@@ -76,11 +71,9 @@
                     <p> <i class="fas fa-envelope"></i> cbalanta@utap.edu.co</p>
                 </div>
             </div>
-            </div>
-            <div class="col-9 bg-light p-5">
+            <div class="col-9 col-md-8 bg-light p-4">
                 <section class="principal">
                     <!--------------------- PERFIL ---------------------->
-                    <div class="col-12">
                         <div class="perfil">
                             <h2 class="titulo titulo-principal">RONALDO JIMÉNEZ ACOSTA</h2>
                             <hr class="linea linea-principal">
@@ -105,10 +98,7 @@
                                     </p>
                             </div>
                         </div>
-                    </div>
-    
                     <!--------------------- EXPERIENCIA LABORAL ---------------------->
-                    <div class="col-12">
                         <div class="experiencia-laboral">
                             <h2 class="titulo">EXPERIENCIA LABORAL</h2>
                             <hr class="linea linea-principal">
@@ -139,10 +129,7 @@
                                 </p>
                             </div>
                         </div>
-                    </div>
-    
                     <!--------------------- EDUCACION ---------------------->
-                    <div class="col-12">
                         <div class="educacion">
                             <h2 class="titulo">EDUCACIÓN</h2>
                             <hr class="linea linea-principal">
@@ -157,11 +144,11 @@
                                     Agosto 2018.</i></p>
                             </div>
                         </div>
-                    </div>
                 </section>
             </div>
         </div>
     </div>
+    <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/html2pdf.bundle.min.js"></script>
     <script src="js/main.js"></script>
